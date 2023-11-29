@@ -47,7 +47,7 @@ int main(void)
         current = current->next;
     current->next = temp;
 
-    free_listint(head);
+    free_listit(head);
 
     return (0);
 }
